@@ -79,12 +79,12 @@ $('#item_2').click(function () {
 			return false;
 		});
 
-$('#item_3').click(function () {
-			$('body,html').animate({
-				scrollTop: $('#content2').offset().top
-			}, 800);
-			return false;
-		});
+// $('#item_3').click(function () {
+// 			$('body,html').animate({
+// 				scrollTop: $('#content2').offset().top
+// 			}, 800);
+// 			return false;
+// 		});
 
 $('#item_4').click(function () {
 			$('body,html').animate({
@@ -121,7 +121,7 @@ $(document).scroll(function(){
         boxCntOfset1 = $("#content").offset().top - 5,
         boxCntOfset2 = $("#content1").offset().top - 5,
         // boxCntOfset3 = $("#content2").offset().top - 5,
-        boxCntOfset4 = $("#content3").offset().top - 5,
+        boxCntOfset4 = $("#content3").offset().top - 600,
         boxCntOfset5 = $("#content4").offset().top - 5,
         boxCntOfset6 = $("#content").position().top + 100,
         boxCntOfset7 = $("#content1").position().top + 100,
