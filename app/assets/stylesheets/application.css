@@ -1,0 +1,203 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *
+ *= require font-awesome
+ *= require_tree ../../../vendor/assets/stylesheets/.
+ */
+
+
+#headlines-contact-beth {
+  font-size: 4em;
+  line-height: 0px;
+  color: #f2f2f2;
+  text-align: center;
+  margin-top: 25px;
+  padding-right: 25px;
+  float: left;
+  width: 700px;
+}
+
+
+.year-beth {
+    font-size: 1.2em;
+    margin-left: -185px;
+    margin-top: -10px;
+    position: absolute;
+    color: #f2f2f2;
+    font-weight: 700;
+    text-align: right;
+    width: 125px;
+}
+
+@font-face {
+    font-family: 'bethgilomen';
+    src:    url('bethgilomen.eot');
+    src:    url('bethgilomen.eot#iefix') format('embedded-opentype'),
+        url('bethgilomen.ttf') format('truetype'),
+        url('bethgilomen.woff') format('woff'),
+        url('bethgilomen.svg#bethgilomen') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'bethgilomen' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dailyillini:before {
+    content: "\e903";
+}
+.icon-corvisa:before {
+    content: "\e900";
+}
+.icon-js:before {
+    content: "\e901";
+}
+.icon-shoretel:before {
+    content: "\e902";
+}
+
+.custom-icon{
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+#resume-others{
+  width: 480px;
+  float: left;
+  padding-left: 25px;
+  font-size: .8em;
+  color: #f2f2f2;
+}
+
+.resume-section{
+  margin-top: 60px;
+}
+
+.resume-section-header{
+  font-size: 1.2em;
+  margin-left: -185px;
+  margin-top: -2px;
+  position: absolute;
+  color: #f2f2f2;
+  font-weight: 700;
+  text-align: right;
+  width: 125px;
+}
+
+.resume-section-header-resp{
+  display:none;
+}
+
+.resume-section .title{
+  color: #78B79C;
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 17px;
+  text-transform: uppercase;
+  margin:0;
+}
+
+.resume-section .subhead{
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+.resume-section .resume-item{
+  padding-bottom: 15px;
+}
+
+.push-next{
+  float:left;
+  width:300px;
+  height: 1px;
+}
+
+.resume-other-container{
+  margin-top: 75px;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 650px) {
+
+  .resume-section .title {
+    width: 70%;
+    margin-top: 15px;
+  }
+
+  .resume-section .subhead{
+    margin:0;
+    width: 70%;
+  }
+
+  .resume-section-header{
+    display:none;
+  }
+
+  .resume-section-header-resp{
+    display:inline-block;
+    font-size: 1.6em;
+    color: #f2f2f2;
+    font-weight: 700;
+    width: 125px;
+  }
+
+  .resume-section {
+    margin-top: 35px;
+  }
+
+  .resume-section .resume-item {
+    padding-bottom: 2px;
+  }
+
+  .resume-other-container {
+    margin-top: 30px;
+  }
+
+  #headlines-contact-beth {
+    line-height: normal;
+     width: 100%;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 850px) {
+
+
+}
+
+
+
