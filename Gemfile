@@ -9,7 +9,6 @@ gem 'rails', '4.2.5'
 group :production do
   gem 'pg'
   gem 'rails_12factor'
-  gem 'rails_serve_static_assets'
 end
 
 group :development do
@@ -37,7 +36,7 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-gem 'sprockets-rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
