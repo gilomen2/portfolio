@@ -1,3 +1,65 @@
-// Place all the styles related to the Welcome controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+@font-face {
+    font-family: 'bethgilomen';
+    src:    url(font-path('bethgilomen.eot'));
+    src:    url(font-path('bethgilomen.eot#iefix')) format('embedded-opentype'),
+        url(font-path('bethgilomen.ttf')) format('truetype'),
+        url(font-path('bethgilomen.woff')) format('woff'),
+        url(font-path('bethgilomen.svg#bethgilomen')) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cooper_hewittlight';
+    src: url(font-path('cooperhewitt-light-webfont.eot'));
+    src: url(font-path('cooperhewitt-light-webfont.eot?#iefix')) format('embedded-opentype'),
+         url(font-path('cooperhewitt-light-webfont.woff2')) format('woff2'),
+         url(font-path('cooperhewitt-light-webfont.woff')) format('woff'),
+         url(font-path('cooperhewitt-light-webfont.ttf')) format('truetype'),
+         url(font-path('cooperhewitt-light-webfont.svg#cooper_hewittlight')) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'limerick-xlightregular';
+    src: url(font-path('limerick-xlight-webfont.eot'));
+    src: url(font-path('limerick-xlight-webfont.eot?#iefix')) format('embedded-opentype'),
+         url(font-path('limerick-xlight-webfont.woff2')) format('woff2'),
+         url(font-path('limerick-xlight-webfont.woff')) format('woff'),
+         url(font-path('limerick-xlight-webfont.ttf')) format('truetype'),
+         url(font-path('limerick-xlight-webfont.svg#limerick-xlightregular')) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'caviar_dreamsbold';
+    src: url(font-path('caviar_dreams_bold-webfont.eot'));
+    src: url(font-path('caviar_dreams_bold-webfont.eot?#iefix')) format('embedded-opentype'),
+         url(font-path('caviar_dreams_bold-webfont.woff2')) format('woff2'),
+         url(font-path('caviar_dreams_bold-webfont.woff')) format('woff'),
+         url(font-path('caviar_dreams_bold-webfont.ttf')) format('truetype'),
+         url(font-path('caviar_dreams_bold-webfont.svg#caviar_dreamsbold')) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'caviar_dreamsitalic';
+    src: url('caviardreams_italic-webfont.eot');
+    src: url('caviardreams_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('caviardreams_italic-webfont.woff2') format('woff2'),
+         url('caviardreams_italic-webfont.woff') format('woff'),
+         url('caviardreams_italic-webfont.ttf') format('truetype'),
+         url('caviardreams_italic-webfont.svg#caviar_dreamsitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

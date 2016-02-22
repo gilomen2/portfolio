@@ -1,3 +1,4 @@
+
 *, *:after, *:before {
   box-sizing: border-box;
 }
@@ -31,7 +32,7 @@ body {
     position:absolute;
     left:50%; /* centers the loading animation horizontally one the screen */
     top:50%; /* centers the loading animation vertically one the screen */
-    background-image: URL('status.gif'); /* path to your loading animation */
+    background-image: URL(image_path('status.gif')); /* path to your loading animation */
     background-repeat:no-repeat;
     background-position:center;
     margin:-100px 0 0 -100px; /* is width and height divided by two */
@@ -153,7 +154,7 @@ a
   padding: 200px 0px 0px 0px;
   position: relative;
   overflow: hidden;
-  background-image: url('quote.png');
+  background-image: url(image_path('quote.png'));
   overflow: hidden;
   z-index: 11;
   background-attachment: fixed;
@@ -252,7 +253,7 @@ a
   width: 0px
 }
 #content1 {
-  background-image: url('work.png');
+  background-image: url(image_path('work.png'));
   background-color: #3E3E3E;
   background-attachment: fixed;
   border: none;
@@ -329,7 +330,7 @@ a
   padding-bottom: 3px;
 }
 #content2 {
-  background-image: url('camera.png');
+  background-image: url(image_path('camera.png'));
   background-color: #f2f2f2;
   background-attachment: fixed;
   border: none;
@@ -421,7 +422,7 @@ span.roll {
   margin-top: 12px;
 }
 #content3 {
-  background-image: url('chat.png');
+  background-image: url(image_path('chat.png'));
   background-color: #303440;
   background-attachment: fixed;
   border: none;
