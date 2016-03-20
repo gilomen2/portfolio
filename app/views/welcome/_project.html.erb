@@ -1,0 +1,16 @@
+<li class="mix <%= project.category %>">
+  <%= link_to project_path(project), remote: true, "data-toggle": "modal", "data-target": "show_project" do %>
+    <div class="ch-item" style="background-image: url(<%= project.project_images.where(thumb: true).first.uri %>);">
+      <div class="ch-info">
+        <% if project.short_title %>
+          <h3><%= project.short_title %></h3>
+        <% else %>
+          <h3><%= project.title %></h3>
+        <% end %>
+        <p><%= project.client %></p>
+      </div>
+    </div>
+  <% end %>
+</li>
+
+
