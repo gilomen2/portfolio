@@ -515,3 +515,11 @@ fieldset[disabled] .btn-dark.active {
   background-color: #3d3c3c;
   border-color: #3d3c3c;
 }
+
+.modal-body p {
+  font-family: 'cooper_hewittmedium';
+}
+
+.modal-body strong {
+  font-family: 'cooper_hewittbold';
+}

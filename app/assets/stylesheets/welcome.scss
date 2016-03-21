@@ -22,6 +22,61 @@
 
 }
 
+@font-face {
+    font-family: 'cooper_hewittbold';
+    src: url(font-path('cooperhewitt-bold-webfont.eot'));
+    src: url(font-path('cooperhewitt-bold-webfont.eot?#iefix')) format('embedded-opentype'),
+         url(font-path('cooperhewitt-bold-webfont.woff2')) format('woff2'),
+         url(font-path('cooperhewitt-bold-webfont.woff')) format('woff'),
+         url(font-path('cooperhewitt-bold-webfont.ttf')) format('truetype'),
+         url(font-path('cooperhewitt-bold-webfont.svg#cooper_hewittbold')) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'cooper_hewittbook';
+    src: url(font-path('cooperhewitt-book-webfont.eot'));
+    src: url(font-path('cooperhewitt-book-webfont.eot?#iefix')) format('embedded-opentype'),
+         url(font-path('cooperhewitt-book-webfont.woff2')) format('woff2'),
+         url(font-path('cooperhewitt-book-webfont.woff')) format('woff'),
+         url(font-path('cooperhewitt-book-webfont.ttf')) format('truetype'),
+         url(font-path('cooperhewitt-book-webfont.svg#cooper_hewittbook')) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'cooper_hewittmedium';
+    src: url(font-path('cooperhewitt-medium-webfont.eot'));
+    src: url(font-path('cooperhewitt-medium-webfont.eot?#iefix')) format('embedded-opentype'),
+         url(font-path('cooperhewitt-medium-webfont.woff2')) format('woff2'),
+         url(font-path('cooperhewitt-medium-webfont.woff')) format('woff'),
+         url(font-path('cooperhewitt-medium-webfont.ttf')) format('truetype'),
+         url(font-path('cooperhewitt-medium-webfont.svg#cooper_hewittmedium')) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'cooper_hewittsemibold';
+    src: url(font-path('cooperhewitt-semibold-webfont.eot'));
+    src: url(font-path('cooperhewitt-semibold-webfont.eot?#iefix')) format('embedded-opentype'),
+         url(font-path('cooperhewitt-semibold-webfont.woff2')) format('woff2'),
+         url(font-path('cooperhewitt-semibold-webfont.woff')) format('woff'),
+         url(font-path('cooperhewitt-semibold-webfont.ttf')) format('truetype'),
+         url(font-path('cooperhewitt-semibold-webfont.svg#cooper_hewittsemibold')) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 @font-face {
     font-family: 'limerick-xlightregular';
