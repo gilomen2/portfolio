@@ -358,15 +358,15 @@ a
   font-size: .24em;
   line-height: 1.7em;
   list-style: none;
-  font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-family: 'cooper_hewittmedium', sans-serif;
 }
 .filter {
   cursor: pointer;
   color: #4f4f4f;
 }
 .filter:hover {
-    color: #4cd2da;
+    color: #78B79C;
     -webkit-transition: all 0.5s ease 0s;
     -moz-transition: all 0.5s ease 0s;
     -ms-transition: all 0.5s ease 0s;
@@ -375,7 +375,7 @@ a
 }
 .filter.active {
     color: #78B79C;
-    font-weight: 700;
+    font-family: 'cooper_hewittsemibold', sans-serif;
 }
 
 .ch-info {

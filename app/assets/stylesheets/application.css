@@ -17,6 +17,16 @@
  *= require_tree ../../../vendor/assets/stylesheets/.
  */
 
+ .modal-body {
+  overflow: auto;
+ }
+
+.proj-body {
+  float:left;
+  width: 54%;
+  padding-right: 1%; 
+}
+
 #navigation-interior {
     position: fixed;
     top: 0;
