@@ -10,7 +10,7 @@ setTimeout(function() {
 }, 5000);
 
 $.backstretch([
-        "<%= asset_path 'wonder.jpg' %>"
+        "https://s3.amazonaws.com/gilomen-portfolio-production/wonder2.jpg"
      ]);
 
 
@@ -79,12 +79,12 @@ $('#item_2').click(function () {
 			return false;
 		});
 
-// $('#item_3').click(function () {
-// 			$('body,html').animate({
-// 				scrollTop: $('#content2').offset().top
-// 			}, 800);
-// 			return false;
-// 		});
+$('#item_3').click(function () {
+			$('body,html').animate({
+				scrollTop: $('#content2').offset().top
+			}, 800);
+			return false;
+		});
 
 $('#item_4').click(function () {
 			$('body,html').animate({

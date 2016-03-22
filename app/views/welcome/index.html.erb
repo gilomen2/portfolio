@@ -1,3 +1,4 @@
+<div id="show_project" class="modal fade" tabindex="-1" role="dialog"></div>
 <div id="preloader">
     <div id="status">&nbsp;</div>
 </div>
@@ -6,6 +7,7 @@
   <span id="navigation-name">BETH GILOMEN</span>
   <span id="item_1">ABOUT ME</span>
   <span id="item_2">RESUME</span>
+  <span id="item_3">WORK</span>
   <span id="item_4">CONTACT</span>
   </div>
 </div>
@@ -54,7 +56,7 @@
             <div id="resume-box">
               <div class="selection-resume">
               <div class="icons"><span class="custom-icon icon-shoretel" style="font-size: 1.5em;margin-top: 6px !important;margin-left: 7px;color: #32323c;"></div>
-              <p class="company">Corvisa, a Shoretel Company</p>
+              <p class="company">ShoreTel</p>
               <p class="position">Platform Product Manager</p>
               <p class="description">
                 <ul>
@@ -244,6 +246,25 @@
             </div>
           </div>
       </div>
+      <div id="content2">
+        <div id="work">
+        <div class="headlines" id="headlines-portfolio">MY <p>WORK</p>
+          <ul id='filter'>
+            <!--EDIT PORTFOLIO CATEGORY NAME'S BETWEEN <li> AND </li>. The data-filter="..." WILL FILTER THE PORTFOLIO BLOCKS WITH CLASS "mix ...". ALL WILL FILTER ALL THE PORTFOLIO BLOCKS. -->
+            <li class="filter" data-filter="all">All</li>
+            <li class="filter" data-filter="development">Development</li>
+            <li class="filter" data-filter="product_management">Product Management</li>
+            <li class="filter" data-filter="project_management">Project Management</li>
+            <li class="filter" data-filter="design">Web Design</li>
+          </ul>
+        </div>
+        <div id='gallery'>
+          <ul class="ch-grid" id='Grid'>
+            <%= render partial: 'project', collection: @projects %>
+          </ul>
+        </div>
+        </div>
+      </div>
       <div id="content3" class="beth">
           <div id="contact">
             <div class="headlines" id="headlines-contact-beth"><p>GET IN TOUCH</p>
@@ -268,3 +289,29 @@
   <p id="back-top">
   <a href="#top"><span><i class="fa fa-arrow-up"></i></span></a>
   </p>
+
+  <script language="javascript">
+    function autoResizeDiv()
+    {
+        document.getElementById('header').style.height = window.innerHeight +'px';
+    }
+    window.onresize = autoResizeDiv;
+    autoResizeDiv();
+  </script>
+
+  <script type="text/javascript">
+  $(function(){
+
+  $('#Grid').mixitup();
+
+  });
+  </script>
+
+  <script type="text/javascript">
+    $(window).load(function() {
+        $('#status').fadeOut();
+        $('#preloader').delay(350).fadeOut('slow');
+        $('body').delay(350).css({'overflow':'visible'});
+    })
+  </script>
+

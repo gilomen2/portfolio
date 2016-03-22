@@ -10,36 +10,7 @@
 
   <%= yield %>
 
-  <script language="javascript">
-    function autoResizeDiv()
-    {
-        document.getElementById('header').style.height = window.innerHeight +'px';
-    }
-    window.onresize = autoResizeDiv;
-    autoResizeDiv();
-  </script>
-
-  <script type="text/javascript">
-  $(function(){
-
-  $('#Grid').mixitup();
-
-  });
-  </script>
-
-  <script type="text/javascript">
-    $(document).ready(function() {
-    $('.test-popup-link').magnificPopup({type:'image', gallery:{enabled:true}});
-    });
-  </script>
-
-  <script type="text/javascript">
-    $(window).load(function() {
-        $('#status').fadeOut();
-        $('#preloader').delay(350).fadeOut('slow');
-        $('body').delay(350).css({'overflow':'visible'});
-    })
-  </script>
 
 </body>
 </html>
+
