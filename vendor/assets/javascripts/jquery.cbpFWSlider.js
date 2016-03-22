@@ -4,7 +4,7 @@
  *
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
- * 
+ *
  * Copyright 2013, Codrops
  * http://www.codrops.com
  */
@@ -86,8 +86,8 @@
 			if( this.itemsCount > 1 ) {
 
 				// add navigation arrows (the previous arrow is not shown initially):
-				this.$navPrev = $( '<span class="cbp-fwprev">&lt;</span>' ).hide();
-				this.$navNext = $( '<span class="cbp-fwnext">&gt;</span>' );
+				this.$navPrev = $( '<span class="cbp-fwprev"><i class="fa fa-chevron-left"></i></span>' ).hide();
+				this.$navNext = $( '<span class="cbp-fwnext"><i class="fa fa-chevron-right"></i></span>' );
 				$( '<nav/>' ).append( this.$navPrev, this.$navNext ).appendTo( this.$el );
 				// add navigation dots
 				var dots = '';
@@ -103,7 +103,7 @@
 
 		},
 		_initEvents : function() {
-			
+
 			var self = this;
 			if( this.itemsCount > 1 ) {
 				this.$navPrev.on( 'click.cbpFWSlider', $.proxy( this._navigate, this, 'previous' ) );
@@ -142,9 +142,9 @@
 				this.$list.css( 'transform', this.support3d ? 'translate3d(' + translateVal + '%,0,0)' : 'translate(' + translateVal + '%)' );
 			}
 			else {
-				this.$list.css( 'margin-left', -1 * this.current * 100 + '%' );	
+				this.$list.css( 'margin-left', -1 * this.current * 100 + '%' );
 			}
-			
+
 			var transitionendfn = $.proxy( function() {
 				this.isAnimating = false;
 			}, this );
@@ -221,9 +221,9 @@
 				}
 				instance[ options ].apply( instance, args );
 			});
-		} 
+		}
 		else {
-			this.each(function() {	
+			this.each(function() {
 				var instance = $.data( this, 'cbpFWSlider' );
 				if ( instance ) {
 					instance._init();
