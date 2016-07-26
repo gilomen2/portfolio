@@ -24,7 +24,7 @@
 .proj-body {
   float:left;
   width: 54%;
-  padding-right: 1%; 
+  padding-right: 1%;
 }
 
 #navigation-interior {
@@ -46,6 +46,10 @@
     transition: all 0.5s ease 0s;
 }
 
+
+#about-me-box p:first-child {
+    margin-top: 80px;
+}
 
 #headlines-contact-beth {
   font-size: 4em;

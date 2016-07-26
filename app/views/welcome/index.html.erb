@@ -15,7 +15,7 @@
   <div id="header-headlines">
       <p>Hello, my name is</p>
       <span>Beth Gilomen</span>
-      <p>i'm a product manager and developer</p>
+      <p>i'm a developer and product manager</p>
   </div>
       <div class="hi-icon-wrap hi-icon-effect-1 hi-icon-effect-1a">
       <a href="https://github.com/gilomen2" class="hi-icon hi-icon-mobile"><i class="fa fa-github"></i></a>
@@ -36,15 +36,17 @@
             <img id="my_photo" src="<%= asset_path 'profile-photo.png' %>">
           </div>
           <div id="about-me-box">Experienced product manager with excellent technical and design skills. Bridges the communication gap between technical, creative, and business professionals.
-            <p class="skills-line" id="line-1"><span>technical product management</span></p>
-            <p class="skills-line" id="line-2"><span>agile project management</span></p>
-            <p class="skills-line" id="line-3"><span>client relationship management</span></p>
-            <p class="skills-line" id="line-4"><span>web design</span></p>
             <p class="skills-line" id="line-5"><span>html & css, sass</span></p>
             <p class="skills-line" id="line-6"><span>javascript</span></p>
+            <p class="skills-line" id="line-13"><span>jquery</span></p>
+            <p class="skills-line" id="line-12"><span>angularjs</span></p>
+            <p class="skills-line" id="line-2"><span>agile project management</span></p>
             <p class="skills-line" id="line-7"><span>rails development</span></p>
             <p class="skills-line" id="line-8"><span>wordpress development</span></p>
-            <p class="skills-line" id="line-9"><span>b2b marketing</span></p>
+            <p class="skills-line" id="line-1"><span>technical product management</span></p>
+            <!-- <p class="skills-line" id="line-3"><span>client relationship management</span></p> -->
+            <p class="skills-line" id="line-4"><span>web design</span></p>
+            <!-- <p class="skills-line" id="line-9"><span>b2b marketing</span></p> -->
             <p class="skills-line" id="line-10"><span>adobe illustrator</span></p>
             <p class="skills-line" id="line-11"><span>adobe photoshop</span></p>
           </div>
@@ -57,10 +59,12 @@
               <div class="selection-resume">
               <div class="icons"><span class="custom-icon icon-shoretel" style="font-size: 1.5em;margin-top: 6px !important;margin-left: 7px;color: #32323c;"></div>
               <p class="company">ShoreTel</p>
-              <p class="position">Platform Product Manager</p>
+              <p class="position">Summit Platform Product Manager</p>
               <p class="description">
                 <ul>
                   <li>Develop and maintain the product roadmap</li>
+                  <li>Act as product owner on SCRUM team</li>
+                  <li>Maintain the product backlog and prioritize development</li>
                   <li>Manage all aspects of the software development lifecycle</li>
                   <li>Guide user interface additions and improvements with an eye toward user experience</li>
                   <li>Evaluate key market trends and competition</li>
@@ -196,6 +200,14 @@
                     <p class="title">Bachelor's, Print and Editorial Journalism</p>
                     <p class="subhead">University of Illinois, May 2008</p>
                   </div>
+                  <div class="resume-item">
+                    <p class="title">Rails Web Development</p>
+                    <p class="subhead">Bloc, March 2016</p>
+                  </div>
+                  <div class="resume-item">
+                    <p class="title">Frontend Web Development</p>
+                    <p class="subhead">Bloc, Current</p>
+                  </div>
                 </div>
                 <div class="resume-section">
                   <div class="resume-section-header">Involvement</div>
@@ -250,7 +262,6 @@
         <div id="work">
         <div class="headlines" id="headlines-portfolio">MY <p>WORK</p>
           <ul id='filter'>
-            <!--EDIT PORTFOLIO CATEGORY NAME'S BETWEEN <li> AND </li>. The data-filter="..." WILL FILTER THE PORTFOLIO BLOCKS WITH CLASS "mix ...". ALL WILL FILTER ALL THE PORTFOLIO BLOCKS. -->
             <li class="filter" data-filter="all">All</li>
             <li class="filter" data-filter="development">Development</li>
             <li class="filter" data-filter="product_management">Product Management</li>
@@ -314,4 +325,3 @@
         $('body').delay(350).css({'overflow':'visible'});
     })
   </script>
-
